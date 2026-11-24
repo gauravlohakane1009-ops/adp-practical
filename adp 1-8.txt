@@ -1,0 +1,422 @@
+Problem 1: Directory Creation & File Organization (Linux Shell Script)
+rr
+
+Problem 2: Sports Club Registration Table (HTML)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Club Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        table {
+            width: 75%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Apex Sports Club - Registered Members</h1>
+    <p>Below is the list of registered members for the current season.</p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Sport</th>
+            <th>Contact Number</th>
+        </tr>
+        <tr>
+            <td>Aarav Sharma</td>
+            <td>20</td>
+            <td>Cricket</td>
+            <td>9876543210</td>
+        </tr>
+        <tr>
+            <td>Priya Deshmukh</td>
+            <td>19</td>
+            <td>Badminton</td>
+            <td>9123456780</td>
+        </tr>
+        <tr>
+            <td>Rohan Kulkarni</td>
+            <td>21</td>
+            <td>Football</td>
+            <td>9988776655</td>
+        </tr>
+        <tr>
+            <td>Sneha Patil</td>
+            <td>20</td>
+            <td>Basketball</td>
+            <td>9812345678</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+Problem 3: My Dream Vacation (HTML)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Dream Vacation</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+        }
+        img {
+            width: 350px;
+            height: 220px;
+            margin-right: 15px;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Dream Vacation: Kyoto, Japan</h1>
+
+    <p>
+        Kyoto is my dream travel destination because it blends ancient Japanese traditions 
+        with peaceful natural beauty. Famous for its classical Buddhist temples, wooden houses, 
+        bamboo forests, and cherry blossoms, it offers an unforgettable cultural experience.
+    </p>
+
+    <h2>Gallery</h2>
+    <img src="kyoto_temple.jpg" alt="Kinkaku-ji Golden Pavilion in Kyoto">
+    <img src="arashiyama.jpg" alt="Arashiyama Bamboo Grove">
+
+    <h2>Major Attractions</h2>
+    <ul>
+        <li>
+            <a href="https://www.shokoku-ji.jp/en/kinkakuji/" target="_blank">Kinkaku-ji (The Golden Pavilion)</a>
+        </li>
+        <li>
+            <a href="https://inari.jp/en/" target="_blank">Fushimi Inari Taisha Shrine</a>
+        </li>
+        <li>
+            <a href="https://www.japan-guide.com/e/e3912.html" target="_blank">Arashiyama Bamboo Grove</a>
+        </li>
+        <li>
+            <a href="https://www.kiyomizudera.or.jp/en/" target="_blank">Kiyomizu-dera Temple</a>
+        </li>
+    </ul>
+
+</body>
+</html>
+
+Problem 4: Resume Webpage (HTML & CSS)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        #header {
+            background-color: #1a252f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 5px solid #2980b9;
+        }
+        #education {
+            border-left-color: #27ae60;
+        }
+        #skills {
+            border-left-color: #e67e22;
+        }
+        #projects {
+            border-left-color: #8e44ad;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Rahul Verma</h1>
+        <p>Email: rahul.verma@email.com | Phone: +91 9876543210</p>
+    </div>
+
+    <div id="education" class="section">
+        <h2>Education</h2>
+        <p><strong>B.Sc. in Computer Science</strong> - ABC College (2023 - 2026)</p>
+        <p><strong>Higher Secondary (HSC)</strong> - XYZ Junior College (2023)</p>
+    </div>
+
+    <div id="skills" class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Python and C Programming</li>
+            <li>Linux Shell Scripting & Git</li>
+        </ul>
+    </div>
+
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+        <p><strong>Student Attendance Tracker:</strong> A simple web app to record and view daily class attendance.</p>
+        <p><strong>Backup Automation Script:</strong> A Bash script that organizes and backs up project files automatically.</p>
+    </div>
+
+</body>
+</html>
+
+Problem 5: Network Information & Connectivity Test (Linux Shell Script)
+#!/bin/bash
+
+echo "===== System Network Information ====="
+
+echo -e "\n1. IP Address:"
+hostname -I
+
+echo -e "\n2. Default Gateway:"
+ip route | grep default
+
+echo -e "\n3. Open Network Ports:"
+ss -tuln
+
+echo -e "\n4. Testing Connectivity to example.com:"
+ping -c 4 example.com
+
+Problem 6: Restaurant Menu Table with Merged Cells (HTML)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 30px;
+        }
+        table {
+            width: 80%;
+            border: 2px solid #444;
+            border-spacing: 8px;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        .category {
+            background-color: #f4d03f;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Spice Garden Restaurant - Menu</h1>
+
+    <table>
+        <tr>
+            <th>Item Name</th>
+            <th>Description</th>
+            <th>Price (INR)</th>
+        </tr>
+        <tr>
+            <td colspan="3" class="category">Starters</td>
+        </tr>
+        <tr>
+            <td>Paneer Tikka</td>
+            <td>Grilled cottage cheese cubes marinated in Indian spices</td>
+            <td>220</td>
+        </tr>
+        <tr>
+            <td>Veg Spring Rolls</td>
+            <td>Crispy rolls stuffed with seasoned mixed vegetables</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="category">Desserts</td>
+        </tr>
+        <tr>
+            <td>Gulab Jamun</td>
+            <td>Soft milk dumplings soaked in warm cardamom sugar syrup</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Chocolate Brownie</td>
+            <td>Warm walnut brownie served with vanilla ice cream</td>
+            <td>150</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+Problem 7: College Fest Webpage (HTML)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechFest 2026 - College Fest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+        }
+        img {
+            width: 200px;
+            border: 2px solid #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TechFest 2026</h1>
+    <p><strong>Date:</strong> December 15 - 16, 2026</p>
+    <p><strong>Venue:</strong> Main Auditorium & Computer Science Block</p>
+    <p>Join us for two days of coding, robotics, gaming, and cultural fun!</p>
+
+    <h2>Event Schedule</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Inauguration Ceremony</td>
+            <td>Main Auditorium</td>
+        </tr>
+        <tr>
+            <td>11:30 AM</td>
+            <td>Code-a-Thon</td>
+            <td>Lab 1</td>
+        </tr>
+        <tr>
+            <td>02:00 PM</td>
+            <td>Robo Race</td>
+            <td>College Ground</td>
+        </tr>
+    </table>
+
+    <h2>Competitions</h2>
+    <ul>
+        <li>Web Design Challenge</li>
+        <li>Blind Coding</li>
+        <li>Tech Quiz</li>
+        <li>E-Sports Tournament</li>
+    </ul>
+
+    <h2>Official College Website</h2>
+    <p>Click the logo below to visit our college website:</p>
+    <a href="https://www.yourcollegewebsite.edu" target="_blank">
+        <img src="college_logo.png" alt="College Official Logo">
+    </a>
+
+</body>
+</html>
+
+Problem 8: Music Band Homepage (HTML & CSS)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Midnight Echoes - Official Band Page</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f1f1f1;
+            font-family: 'Trebuchet MS', sans-serif;
+            margin: 40px;
+        }
+        h1 {
+            color: #ff4757;
+            text-align: center;
+            letter-spacing: 3px;
+            border-bottom: 3px double #ff4757;
+            padding-bottom: 10px;
+        }
+        .box {
+            background-color: #1e1e1e;
+            border: 2px solid #ff4757;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+        h2 {
+            color: #ffa502;
+        }
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>THE MIDNIGHT ECHOES</h1>
+    <p style="text-align: center;">Indie Rock Band | Live Music & Original Albums</p>
+
+    <div class="box">
+        <h2>Albums</h2>
+        <ul>
+            <li><strong>Neon Streets</strong> (2022)</li>
+            <li><strong>Echoes in the Dark</strong> (2024)</li>
+            <li><strong>Electric Horizon</strong> (2026)</li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Upcoming Tour Dates</h2>
+        <ul>
+            <li><strong>Dec 10, 2026:</strong> Mumbai - Phoenix Marketcity</li>
+            <li><strong>Dec 18, 2026:</strong> Pune - High Spirits Cafe</li>
+            <li><strong>Dec 27, 2026:</strong> Bengaluru - Hard Rock Cafe</li>
+        </ul>
+    </div>
+
+</body>
+</html>
