@@ -1,5 +1,20 @@
+MORNING SESSION 1001 to 1062
 Problem 1: Directory Creation & File Organization (Linux Shell Script)
-rr
+#!/bin/bash
+
+# Create main directory and subdirectories
+mkdir -p project_backup/docs project_backup/images project_backup/scripts
+
+# Copy .txt files to docs
+cp *.txt project_backup/docs/ 2>/dev/null
+
+# Copy image files (.jpg, .jpeg, .png) to images
+cp *.jpg *.jpeg *.png project_backup/images/ 2>/dev/null
+
+# Verify and display contents
+echo "Contents of project_backup:"
+ls -R project_backup
+
 
 Problem 2: Sports Club Registration Table (HTML)
 <!DOCTYPE html>
@@ -71,6 +86,7 @@ Problem 2: Sports Club Registration Table (HTML)
 </body>
 </html>
 
+
 Problem 3: My Dream Vacation (HTML)
 <!DOCTYPE html>
 <html>
@@ -101,42 +117,42 @@ Problem 3: My Dream Vacation (HTML)
     </p>
 
     <h2>Gallery</h2>
-    <img src="kyoto_temple.jpg" alt="Kinkaku-ji Golden Pavilion in Kyoto">
-    <img src="arashiyama.jpg" alt="Arashiyama Bamboo Grove">
+    <img src="IMAGE" alt="Kinkaku-ji Golden Pavilion in Kyoto">
+    <img src="IMAGE" alt="Arashiyama Bamboo Grove">
 
     <h2>Major Attractions</h2>
     <ul>
         <li>
-            <a href="https://www.shokoku-ji.jp/en/kinkakuji/" target="_blank">Kinkaku-ji (The Golden Pavilion)</a>
+            <a href="LINK" target="_blank">Kinkaku-ji (The Golden Pavilion)</a>
         </li>
         <li>
-            <a href="https://inari.jp/en/" target="_blank">Fushimi Inari Taisha Shrine</a>
+            <a href="LINK" target="_blank">Fushimi Inari Taisha Shrine</a>
         </li>
         <li>
-            <a href="https://www.japan-guide.com/e/e3912.html" target="_blank">Arashiyama Bamboo Grove</a>
+            <a href="LINK" target="_blank">Arashiyama Bamboo Grove</a>
         </li>
         <li>
-            <a href="https://www.kiyomizudera.or.jp/en/" target="_blank">Kiyomizu-dera Temple</a>
+            <a href="LINK" target="_blank">Kiyomizu-dera Temple</a>
         </li>
     </ul>
 
 </body>
 </html>
 
+
 Problem 4: Resume Webpage (HTML & CSS)
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial , sans-serif;
             margin: 40px;
             background-color: #f9f9f9;
         }
         h1, h2 {
-            font-family: 'Montserrat', sans-serif;
+            font-family: Arial , sans-serif;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
         #header {
@@ -193,6 +209,7 @@ Problem 4: Resume Webpage (HTML & CSS)
 </body>
 </html>
 
+
 Problem 5: Network Information & Connectivity Test (Linux Shell Script)
 #!/bin/bash
 
@@ -209,6 +226,7 @@ ss -tuln
 
 echo -e "\n4. Testing Connectivity to example.com:"
 ping -c 4 example.com
+
 
 Problem 6: Restaurant Menu Table with Merged Cells (HTML)
 <!DOCTYPE html>
@@ -282,6 +300,7 @@ Problem 6: Restaurant Menu Table with Merged Cells (HTML)
 
 </body>
 </html>
+
 
 Problem 7: College Fest Webpage (HTML)
 <!DOCTYPE html>
@@ -360,7 +379,6 @@ Problem 7: College Fest Webpage (HTML)
 
 </body>
 </html>
-
 Problem 8: Music Band Homepage (HTML & CSS)
 <!DOCTYPE html>
 <html>
@@ -420,3 +438,4 @@ Problem 8: Music Band Homepage (HTML & CSS)
 
 </body>
 </html>
+
